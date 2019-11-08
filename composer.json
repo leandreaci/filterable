@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Leandreaci\\Filtarable\\": "src/"
+            "Leandreaci\\Filtarable\\": "/src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Leandreaci\\Tests\\": "tests/"
+            "Leandreaci\\Tests\\": "/tests"
         }
     },
     "minimum-stability": "dev"
