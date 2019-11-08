@@ -1,7 +1,7 @@
 {
     "name": "leandreaci/filterable",
     "description": "Filter package to Laravel/Lumen",
-    "type": "library",
+    "type": "package",
     "authors": [
         {
             "name": "Leandro Andreaci",
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Leandreaci\\Filtarable\\": "/src"
+            "Leandreaci\\Filterable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Leandreaci\\Tests\\": "/tests"
+            "Leandreaci\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev"
