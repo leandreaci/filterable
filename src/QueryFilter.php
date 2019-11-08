@@ -4,7 +4,7 @@
  * Datetime: 13/09/16 10:18
  */
 
-namespace Filterable;
+namespace Leandreaci\Filterable;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;

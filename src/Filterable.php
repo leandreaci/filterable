@@ -1,6 +1,6 @@
 <?php
 
-namespace Filterable;
+namespace Leandreaci\Filterable;
 
 
 trait Filterable
