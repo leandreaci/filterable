@@ -65,8 +65,9 @@ abstract class QueryFilter
      */
     private function invalid($name, $value)
     {
-        return !method_exists($this, $name) ||
+        return ! method_exists($this, $name) ||
             is_null($value) ||
+            $value !== '' ||
         $this->isValidArray($value);
     }
 
