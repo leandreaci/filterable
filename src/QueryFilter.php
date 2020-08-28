@@ -67,7 +67,7 @@ abstract class QueryFilter
     {
         return ! method_exists($this, $name) ||
             is_null($value) ||
-            $value !== '' ||
+            $value === '' ||
         $this->isValidArray($value);
     }
 
