@@ -1,4 +1,4 @@
-FROM leandreaci/php7.3
+FROM leandreaci/php:8.0
 RUN apk add git
 WORKDIR /var/www/html
 COPY composer.json .
