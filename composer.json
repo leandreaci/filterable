@@ -1,6 +1,6 @@
 {
     "name": "leandreaci/filterable",
-    "version": "1.10",
+    "version": "1.10.0",
     "description": "Filter package to Laravel/Lumen",
     "type": "package",
     "authors": [
